@@ -1,0 +1,36 @@
+#todoList-form {
+    width: 50%;
+    margin: 30px auto;
+}
+
+#todoList-form input {
+    height: 35px;
+    width: 80%;
+    padding-left: 10px;
+    margin: 5px;
+    background-color: #F2F3F8;
+    border-radius: 5px;
+    border: none;
+}
+
+#todoList-form input[name="desc"] {
+    height: 50px;
+    width: 80%;
+    padding-left: 10px;
+    margin: 20px;
+    background-color: #F2F3F8;
+
+    border: none;
+}
+
+
+#todoList-form button {
+    padding: 5px 40px;
+    border: none;
+    background-color: #6B7FD7;
+    color: #fefefe;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 15px;
+}
