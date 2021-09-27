@@ -1,0 +1,56 @@
+.done {
+    text-decoration: line-through;
+    color: #858585;
+}
+
+.done input[type=text] {
+    color: #858585;
+}
+
+
+li {
+    width: 60%;
+    background-color: #85C1BD;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+li input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    background: none;
+}
+
+li text {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 5px;;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    flex-grow: 2;
+}
+
+li text:focus {
+    background-color: #F2F3F8;
+    color: #37392E;
+}
+
+#desc{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: start;
+    flex-grow: 2;
+}
+
+li button {
+    justify-content: flex-end;
+}
+
